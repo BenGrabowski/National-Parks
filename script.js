@@ -39,7 +39,6 @@ function displayResults(responseJson){
                 <a href="${responseJson.data[i].url}" target="_blank">${responseJson.data[i].url}</a>
                 <p>${responseJson.data[i].addresses[0].line1}<br />
                 ${responseJson.data[i].addresses[0].line2}<br />
-                ${responseJson.data[i].addresses[0].line3}<br />
                 ${responseJson.data[i].addresses[0].city},
                 ${responseJson.data[i].addresses[0].stateCode}<br />
                 ${responseJson.data[i].addresses[0].postalCode}</p>
